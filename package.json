@@ -1,0 +1,12 @@
+{
+  "name": "Projeto-5",
+  "version": "1.0.0",
+  "description": "Aplicação web em Node.js nativo para cálculo de média e situação do aluno",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT"
+}

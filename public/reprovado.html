@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Situação do Aluno - Reprovado</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #fef2f2;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      margin: 0;
+    }
+    .card {
+      background: #ffffff;
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+      border-top: 6px solid #dc2626;
+      max-width: 400px;
+      width: 100%;
+      text-align: center;
+    }
+    h1 { color: #dc2626; margin-bottom: 0.5rem; }
+    .status {
+      display: inline-block;
+      background-color: #fee2e2;
+      color: #b91c1c;
+      padding: 0.4rem 1rem;
+      border-radius: 20px;
+      font-weight: bold;
+      margin-bottom: 1.5rem;
+    }
+    .info {
+      text-align: left;
+      background: #f8fafc;
+      padding: 1rem;
+      border-radius: 8px;
+    }
+    .info p {
+      margin: 0.5rem 0;
+      font-size: 1.05rem;
+      color: #334155;
+    }
+    .highlight { font-weight: bold; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Resultado Final</h1>
+    <div class="status">{{SITUACAO}}</div>
+    <div class="info">
+      <p><strong>Nota P1:</strong> <span class="highlight">{{P1}}</span></p>
+      <p><strong>Nota P2:</strong> <span class="highlight">{{P2}}</span></p>
+      <hr style="border: 0; border-top: 1px solid #e2e8f0; margin: 0.8rem 0;">
+      <p><strong>Média Final:</strong> <span class="highlight" style="color: #dc2626;">{{MEDIA}}</span></p>
+    </div>
+  </div>
+</body>
+</html>
