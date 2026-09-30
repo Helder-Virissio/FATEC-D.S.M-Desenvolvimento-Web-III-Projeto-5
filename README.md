@@ -1,6 +1,6 @@
 # Projeto: Cálculo de Média Escolar
 
-Trabalho prático em dupla desenvolvido em **Node.js** para a faculdade FATEC. O objetivo é calcular a média de um aluno através das notas passadas pelo link da página e exibir se ele foi aprovado ou reprovado.
+Trabalho prático desenvolvido em **Node.js** para a faculdade FATEC. O objetivo é calcular a média de um aluno através das notas passadas pelo link da página e exibir se ele foi aprovado ou reprovado.
 
 ---
 
@@ -27,4 +27,3 @@ Após iniciar o projeto com `npm start`, acesse no seu navegador:
 ## 👥 Integrantes
 
 - Helder Virissio Araujo
-- Vitor Bernardo
